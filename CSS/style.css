@@ -58,3 +58,59 @@ section h2 {
     font-size: 1.5em;
     margin-bottom: 18px;
 }
+
+.obrasocial {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+.obrasocial li {
+    background: #3f7571;
+    border: #000000;
+    border-radius: 5px;
+    padding: 6px 12px;
+    color: #ebd8d8;
+    font-weight: 400;
+}
+
+.catalogo {
+    background: none;
+    padding: 0;
+    margin-bottom: 0;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.medicos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1000px;
+    padding: 20px 0;
+}
+
+.medicos > div {
+    background: #ebd8d8;
+    border: 1px solid #3f7571;
+    border-radius: 8px;
+    padding: 18px 22px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.medicos h3 {
+    margin-top: 0;
+    color: #3f7571;
+    font-size: 1.1em;
+}
+
+footer {
+    background: #ebd8d8;
+    padding: 18px 0;
+    text-align: center;
+    color: #3f7571;
+}
