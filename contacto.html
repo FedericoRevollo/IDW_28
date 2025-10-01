@@ -4,38 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto - CENTRO MEDICO DEL VALLE</title>
-
-    <link rel="stylesheet" href="paginas/body.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    
     <header class="main-header">
-        <h1 class="site-title">CENTRO MEDICO DEL VALLE: INFORMACION DE CONTACTO</h1>
-
-        
-        <nav class="main-nav">
-            <ul>
-                <li><a href="index.html"> Inicio</a></li>
-                <li><a href="institucional.html"> institucion</a></li>
+        <h1>Información de Contacto</h1>
+       <nav>
+        <div class="nav-container">
+            <ul id="menu" class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="isntitucional.html">institucional</a></li>
             </ul>
-        </nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
     </header>
 
-    
     <main class="main-content">
-        
         <section class="contact-info-section card">
-            <h2 class="section-title">Información de Contacto</h2>
-            <ul class="contact-list">
-                <li class="contact-item"> Correo electrónico: info@CENTRO_MEDICO_DEL_VALLE.com</li>
-                <li class="contact-item"> Teléfono: +54 388 597-8038</li> 
-                <li class="contact-item"> Dirección: Av. Roca (S) 645, Misiones, Argentina</li>
-            </ul>
+            <h2>Información de Contacto</h2>
+            <address>
+                <p>Correo electrónico: <a href="mailto:info@centromedicodelvalle.com">info@centromedicodelvalle.com</a></p>
+                <p>Teléfono: <a href="tel:+543885978038">+54 388 597-8038</a></p>
+                <p>Dirección: Av. Roca (S) 645, Misiones, Argentina</p>
+            </address>
         </section>
-        
+
         <section class="hours-section card">
-            <h2 class="section-title">Horarios de Atención</h2>
+            <h2>Horarios de Atención</h2>
             <div class="schedule-details">
                 <p><strong>Lunes a Viernes:</strong></p>
                 <p>08:00 hs - 13:00 hs</p>
@@ -44,56 +44,15 @@
                 <p>09:00 hs - 13:00 hs</p>
             </div>
             <div class="emergency-info">
-                <h3 class="emergency-title"> Emergencias 24 Horas</h3>
+                <h3>Emergencias 24 Horas</h3>
                 <p>Atención disponible las 24 horas, los 365 días del año.</p>
             </div>
         </section>
-        
-        <section class="consultation-form-section card">
-            <h2 class="section-title">Envía tu Consulta</h2>
-            <p class="form-description">responderemos a la brevedad.</p>
-            
-            <form class="consultation-form">
-                <div class="form-group">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="apellido">Apellido:</label>
-                    <input type="text" id="apellido" name="apellido" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="telefono">Teléfono:</label>
-                    <input type="tel" id="telefono" name="telefono">
-                </div>
-                
-                <div class="form-group">
-                    <label for="especialidad">Elegir especialidad:</label>
-                    <select id="especialidad" name="especialidad">
-                        <option value="">-- Selecciona una especialidad --</option>
-                        <option value="Cardiología">Cardiología</option>
-                        <option value="Neurología">Neurología</option>
-                        <option value="Oftalmología">Oftalmología</option>
-                        <option value="Pediatría">Pediatría</option>
-                        <option value="Traumatologia">Traumatología</option>
-                    </select>
-                </div>
-            
-                
-                <button type="submit">Enviar consulta</button>
-            </form>
-        </section>
-    </main>
-    
-    
-    <footer>
-        <p>Comprometidos con tu salud y bienestar</p>
-        <p>&copy; 2025 CENTRO MEDICO DEL VALLE . Todos los derechos reservados.</p>
-        
-       
-    </footer>
 
+
+    <footer class="main-footer">
+        <p>&copy; 2025 CENTRO MEDICO DEL VALLE.</p>
+        <p>Comprometidos con tu salud y bienestar</p>
+    </footer>
 </body>
 </html>
