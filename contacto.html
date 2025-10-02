@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - CENTRO MEDICO DEL VALLE</title>
+    <link rel="stylesheet" href="CSS/stilo perteneciente al archivo (institucional, contactos html).css">
+</head>
+<body>
+    <header>
+        <div class="logo-titulo">
+            <h1>Información de Contacto</h1>
+        </div>
+        <div class="menu-toggle" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul id="navMenu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="institucional.html">institucional</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="contact-info-section card">
+            <h2>Información de Contacto</h2>
+            <address>
+                <p>Correo electrónico: <a href="mailto:info@centromedicodelvalle.com">info@centromedicodelvalle.com</a></p>
+                <p>Teléfono: <a href="tel:+543885978038">+54 388 597-8038</a></p>
+                <p>Dirección: Av. Roca (S) 645, Misiones, Argentina</p>
+            </address>
+        </section>
+
+        <section class="hours-section card">
+            <h2>Horarios de Atención</h2>
+            <div class="schedule-details">
+                <p><strong>Lunes a Viernes:</strong></p>
+                <p>08:00 hs - 13:00 hs</p>
+                <p>17:00 hs - 20:00 hs</p>
+                <p><strong>Sábados:</strong></p>
+                <p>09:00 hs - 13:00 hs</p>
+            </div>
+            <div class="emergency-info">
+                <h3>Emergencias 24 Horas</h3>
+                <p>Atención disponible las 24 horas, los 365 días del año.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 CENTRO MEDICO DEL VALLE.</p>
+        <p>Comprometidos con tu salud y bienestar</p>
+    </footer>
+
+    <script>
+        document.getElementById('hamburger').addEventListener('click', function() {
+            document.getElementById('navMenu').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
