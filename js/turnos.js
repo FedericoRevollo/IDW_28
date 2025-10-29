@@ -169,7 +169,7 @@ function cargarTurnos() {
   tablaTurnosBody.innerHTML = '';
 
   turnos.forEach(turno => {
-    const medico = medicos.find(m => m.id === turno.medicoId) || { nombre: 'Desconocido' };
+    const medico = medicos.find(m => String(m.id) === String(turno.medicoId)) || { nombre: 'Desconocido' };
 
     const tr = document.createElement('tr');
     tr.innerHTML = `
