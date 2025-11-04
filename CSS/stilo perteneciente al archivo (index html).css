@@ -41,7 +41,7 @@ nav a:hover {
     background-color: #ddd;
 }
 
-/* Agrupar logo y título a la izquierda */
+/* logo y título */
 .logo-titulo {
     display: flex;
     align-items: center;
@@ -154,7 +154,7 @@ footer {
 
 /* ===== GRID DE SERVICIOS ===== */
 .services {
-  margin-top: -40px; /* Se pega más al carrusel */
+  margin-top: -40px; 
 }
 
 .service-link {
@@ -165,16 +165,16 @@ footer {
 }
 
 .service-link:nth-child(1) {
-  background: #5bc0de; /* celeste */
+  background: #5bc0de; 
 }
 .service-link:nth-child(2) {
-  background: #20c997; /* verde agua */
+  background: #20c997; 
 }
 .service-link:nth-child(3) {
-  background: #17a2b8; /* teal */
+  background: #17a2b8; 
 }
 .service-link:nth-child(4) {
-  background: #138496; /* verde oscuro */
+  background: #138496; 
 }
 
 .service-link:hover {
@@ -185,3 +185,5 @@ footer {
   font-size: 40px;
   margin-bottom: 15px;
 }
+
+
