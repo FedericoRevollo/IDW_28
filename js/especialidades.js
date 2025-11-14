@@ -1,5 +1,3 @@
-// especialidades.js
-
 function getEspecialidades() {
   return JSON.parse(localStorage.getItem('especialidades')) || [];
 }
@@ -39,7 +37,7 @@ function guardarEspecialidad(e) {
   const esp = {
     id: id ? parseInt(id) : generarId(especialidades),
     nombre,
-    descripcion // <-- Se agrega la descripción aquí
+    descripcion 
   };
 
   if (id) {
@@ -60,7 +58,7 @@ function editarEspecialidad(id) {
   const e = especialidades.find(esp => esp.id == id);
   document.getElementById('especialidad-id').value = e.id;
   document.getElementById('nombre').value = e.nombre;
-  document.getElementById('descripcion').value = e.descripcion || ''; // <-- Se carga la descripción
+  document.getElementById('descripcion').value = e.descripcion || ''; 
 }
 
 function eliminarEspecialidad(id) {
