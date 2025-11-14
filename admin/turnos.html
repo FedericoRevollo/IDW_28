@@ -93,16 +93,16 @@
   <script src="../js/utils.js"></script>
   <script src="../js/turnos.js"></script>
   <script>
-    // Verificar autenticación
+    // Verificacion de autenticación
     verificarAutenticacion();
 
-    // Cargar datos al cargar la página
+    // Cargar datos 
     window.addEventListener('DOMContentLoaded', function() {
       cargarSelectMedicosTurno();
       renderizarTablaTurnos();
     });
 
-    // Asignar evento de envío del formulario
+    //  envío del formulario
     document.getElementById('formTurno').addEventListener('submit', guardarTurno);
   </script>
 
