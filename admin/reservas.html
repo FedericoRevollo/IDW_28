@@ -78,12 +78,12 @@
   <script src="../js/utils.js"></script>
   <script src="../js/reservas.js"></script>
   <script>
-    // Verificar autenticación
+    // Verificacion autenticación
     if (typeof verificarAutenticacion === 'function') {
       verificarAutenticacion();
     }
 
-    // Cargar reservas al cargar la página
+    // Cargar reservas 
     window.addEventListener('DOMContentLoaded', function() {
       if (typeof renderizarTablaReservas === 'function') {
         renderizarTablaReservas();
