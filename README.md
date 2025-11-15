@@ -23,3 +23,6 @@ Aplicación web para gestión de turnos médicos en una clínica. Incluye:
 
 
 ## Video explicativo
+
+https://youtu.be/VaiudA7QQdQ
+
